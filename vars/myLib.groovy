@@ -1,5 +1,5 @@
 def call(){
-  sh 'mvn cleam'
+  sh 'mvn clean'
   sh 'mvn compile'
   sh 'mvn package'
 } 
